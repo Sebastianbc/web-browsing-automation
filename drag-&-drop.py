@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
-driver = webdriver.Firefox(executable_path='C:\\Users\\Sebastian\\Documents\\Projects\\web-browsing-automation\\geckodriver.exe')
+driver = webdriver.Firefox(executable_path='./geckodriver.exe')
 
 driver.get('http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')
 

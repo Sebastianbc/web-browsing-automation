@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 # Initialize webdriver object with geckodriver.exe file downloaded previously
-driver = webdriver.Firefox(executable_path='C:\\Users\\Sebastian\\Documents\\Projects\\web-browsing-automation\\geckodriver.exe')
+driver = webdriver.Firefox(executable_path='./geckodriver.exe')
 
 # Open target web page
 driver.get('https://www.w3schools.com/sql/exercise.asp')
