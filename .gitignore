@@ -1,2 +1,5 @@
+/.venv
+/documents
 *.log
 *.txt
+!requirements.txt
